@@ -120,3 +120,27 @@ button {
 button:hover {
     opacity: 0.8;
 }
+
+@media (max-width: 800px) {
+
+    header {
+        text-align: center;
+    }
+
+    h1 {
+        width: 400px;
+        font-size: 50px;
+    }
+
+    p {
+        font-size: 22px;
+    }
+
+    span {
+        font-size: 17px;
+    }
+}
+
+@media (max-width: 645px) {
+    
+}
