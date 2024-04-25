@@ -170,7 +170,6 @@ button:hover {
 
     span {
         font-size: 14px;
-        margin-top: 440px;
         margin-top: 340px;
     }
 
@@ -186,5 +185,46 @@ button:hover {
         margin-left: 330px;
         font-size: 12px;
         margin-top: 380px;
+    }
+}
+
+@media (max-width: 480px) {
+
+    header {
+        padding: 20px 0;
+    }
+
+    .links {
+        padding: 20px 10px;
+    }
+
+    h1 {
+        font-size: 30px;
+        margin-left: 40px;
+    }
+
+    p {
+        font-size: 18px;
+        margin-left: 40px;
+        margin-top: 200px;
+    }
+
+    span {
+        width: 350px;
+        margin-left: 40px;
+        margin-top: 330px;
+    }
+
+    input {
+        margin-left: 40px;
+        width: 230px;
+        height: 40px;
+        margin-top: 370px;
+    }
+
+    button {
+        margin-left: 275px;
+        height: 40px;
+        margin-top: 370px;
     }
 }
