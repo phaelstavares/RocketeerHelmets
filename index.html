@@ -24,10 +24,16 @@
         <section>
             <span>Digite seu e-mail para receber as últimas notícias</span>
 
-            <input type="text" placeholder="E-mail">
+            <input id="meuInput" type="text" placeholder="E-mail">
 
-            <button>Enviar</button>
+            <button onclick="limparInput()">Enviar</button>
         </section>
     </main>
+
+    <script>
+        function limparInput() {
+        document.getElementById("meuInput").value = "";
+        }
+    </script>
 </body>
 </html>
